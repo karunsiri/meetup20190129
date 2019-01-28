@@ -5,4 +5,6 @@ Dir['./lib/**/*.rb'].each do |file|
   require file
 end
 
-Spanish.new.greet 'hello'
+spanish = Spanish.new
+spanish.greet 'hello'
+spanish.greet 'u good?'
